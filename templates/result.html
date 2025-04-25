@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Generated Documentation</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            width: 80%;
+            min-height: 80vh; /* Increased height */
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        pre {
+            background-color: #222;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: left;
+            max-height: 500px; /* Increased height for better visibility */
+            overflow-y: auto;
+            white-space: pre-wrap;
+            flex-grow: 1;
+        }
+        .buttons {
+            margin-top: 10px;
+        }
+        button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: darkorange;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Generated Documentation</h2>
+        <pre>{{ documentation }}</pre>
+        <div class="buttons">
+            <a href="/download"><button>Download README.md</button></a>
+            <a href="/"><button>Go Back</button></a>
+        </div>
+    </div>
+</body>
+</html>

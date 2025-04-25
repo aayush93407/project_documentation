@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Find Helpers</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 50%;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        textarea {
+            width: 90%;
+            height: 80px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            resize: none;
+        }
+        button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Generate README file</h2>
+        <p>Describe your project and requirements</p>
+        <form action="/" method="post">
+            <textarea name="project_desc" required></textarea><br>
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+</body>
+</html>
